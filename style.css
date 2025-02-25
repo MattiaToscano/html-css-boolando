@@ -12,6 +12,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .categoria{
@@ -34,6 +35,10 @@ header{
 
     /* Seconda parte esercizio */
 
+
+
+
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -47,11 +52,15 @@ header{
 .colonna{
     width: 32%;
     margin-bottom: 50px;
-    
 }
 
 .card{
     position: relative;
+    height: 460px;
+}
+
+.hidden-img:hover{
+    opacity: 1;
 }
 
 img{
@@ -64,7 +73,6 @@ img{
     position: absolute;
     bottom: 50px;
     left:0px;
-    
 }
 .labelsost{
     padding: 5px 10px;
@@ -72,9 +80,8 @@ img{
     position: absolute;
     bottom: 50px;
     left:60px;
-    
-}
 
+}
 
 .cuore{
     padding: 5px 10px;
@@ -84,8 +91,38 @@ img{
     top: 8px;
     color: black;
     background-color: #fff;
-
 }
+
+
+    /* Terza parte di esercizio */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+    width: 100%;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+.colonnasinistra{
+    text-align: left;
+    color: #fff;
+    padding-right:400px;
+
+    
+}
+.colonnadestra{
+    text-align: right;
+    color: #fff;
+    
+}
+
+
+
 
 
 /* Utility */
@@ -118,6 +155,10 @@ img{
     background-color: green;
 }
 
+.white{
+    color: #fff;
+}
+
 .h-800{
     height: 800px;
 }
@@ -138,3 +179,14 @@ img{
     text-decoration: line-through;
 }
 
+a{
+    text-decoration: none;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.opacità{
+    opacity: 0;
+}
