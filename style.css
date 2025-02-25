@@ -126,5 +126,15 @@ img{
     display: inline-block;
 }
 
+.colorred{
+    color: red;
+}
 
+.grassetto{
+    font-weight: bold;
+}
+
+.tagliato{
+    text-decoration: line-through;
+}
 
