@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+    /* Prima parte esercizio */
 
 header{
     background-color: #ff6900;
@@ -11,7 +12,6 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .categoria{
@@ -26,18 +26,83 @@ header{
    max-width: 30%;
    max-height: 30%;
     margin-top: 25px; 
-
-   
 }
 
 .riepilogo{
    margin: 30px 200px 0 100px;
 }
 
+    /* Seconda parte esercizio */
 
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px;
+}
+
+.colonna{
+    width: 32%;
+    margin-bottom: 50px;
+    
+}
+
+.card{
+    position: relative;
+}
+
+img{
+    max-width: 100%;
+}
+
+.label{
+    padding: 5px 10px;
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+    left:0px;
+}
 
 /* Utility */
 
 .m10-right{
     margin-right: 10px;
 }
+
+.p150{
+    padding: 150px;
+}
+
+.p5{
+    padding: 5px;
+}
+
+.border-black{
+    border: 1px solid black;
+}
+
+.b-colorblue{
+    background-color: blue;
+}
+
+.b-colorred{
+    background-color: red;
+}
+
+.b-colorgreen{
+    background-color: green;
+}
+
+.h-800{
+    height: 800px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+
+
