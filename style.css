@@ -78,9 +78,13 @@ img{
 
 .cuore{
     padding: 5px 10px;
-    color:#fff
+    color:#fff;
     position: absolute;
-   
+    right:0;
+    top: 8px;
+    color: black;
+    background-color: #fff;
+
 }
 
 
