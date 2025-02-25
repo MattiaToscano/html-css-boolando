@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: #ff6900;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.categoria{
+    margin: 30px 200px 0 ;
+}
+
+.centro{
+    text-align: center;
+}
+
+.logo{
+   max-width: 30%;
+   max-height: 30%;
+    margin-top: 25px; 
+
+   
+}
+
+.riepilogo{
+   margin: 30px 200px 0 100px;
+}
+
+
+
+/* Utility */
+
+.m10-right{
+    margin-right: 10px;
+}
