@@ -64,7 +64,25 @@ img{
     position: absolute;
     bottom: 50px;
     left:0px;
+    
 }
+.labelsost{
+    padding: 5px 10px;
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+    left:60px;
+    
+}
+
+
+.cuore{
+    padding: 5px 10px;
+    color:#fff
+    position: absolute;
+   
+}
+
 
 /* Utility */
 
